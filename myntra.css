@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant, sans-serif;
+}
+
+nav{
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#logo{
+    flex-basis: 10%;
+    padding-left: 40px;
+    height: 80px;
+    width: 100px;
+}
+#portion2{
+    /* flex-basis: 40%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px; /* Adds space between the items */
+   padding: 10px 20px;
+   
+}
+.items{
+    font-weight: 600;
+}
+#portion3{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(242,244,244);
+    border-radius: 7px;
+    height: 40px;
+}
+
+#portion3 #icon{
+    flex-basis: 10%;
+    padding: 0px 10px;
+}
+
+#portion3 #p32{
+    flex-basis: 60%;
+    color: gray;
+}
+#portion4{
+    flex-basis: 20%;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center1{
+    padding: 0px 10px;
+}
+.center2{
+    padding: 0px 17px;
+}
+.center3{
+    padding: 0px 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    height: 390px;
+    width: 1150px;
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    background-color: white;
+    display:none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.dropdown_container:hover .dropdown{
+    display: block;
+}
+.list{
+    line-height: 22px;
+    list-style: none;
+}
+
+.dropdown_container{
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+}
+.list6{
+    list-style: none;
+    line-height: 40px;
+}
+.pinky{
+    color: hotpink;
+}
+#flexy{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: 400;
+    
+}
+.line{
+    width: 150px;
+    height: 0.5px;
+    background-color: rgb(236, 213, 213);
+}
+/* .sub{
+    /* background-color: rgba(245, 245, 245, 0.945); */
+#tag{
+    height: 420px;
+    padding: 10px;
+    
+}
+#pricetag{
+    height: 300px;
+   margin-left: 30px;
+    margin-top: 60px;
+}
+#fwd{
+    height: 400px;
+    width: 100vw;
+}
+.heads{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 40px;
+    /* font-family: Assistant, sans-serif; */
+}
+
+.headings{
+    font-family: Assistant, sans-serif;
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.Rcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+.Rcard img{
+    height: 400px;
+}
+
+.lux{
+    display: flex;
+    height: 326px;
+}
+.lux_cards img{
+    height: 326px;
+}
+.medal{
+    display: flex;
+    height: 326px;
+    gap: 2px;
+    width: 100vw;
+}
+.global{
+    display: flex;
+    height: 326px;
+
+}
+#container{
+    /* margin: 20px ; */
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1500px;
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
+    gap: .5rem;
+   
+}
+.item{
+    /* background-color: blueviolet; */
+    /* border: 1px solid; */
+    /* color: white; */
+    /* font-size: 2rem; */
+    height: 150px;
+}
+.item img{
+    height: 260px;
+    width: 220px;
+}
+
+#bottom{
+    display: flex;
+    height: 300px;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.bags img{
+    height: 250px;   
+}
+
+.FreeShippingBanner-sidebar {
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+    height: 288px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.FreeShippingBanner-sidebar-collapsed {
+    right: 0;
+}
+.footerpart{
+    font-family: Assistant, sans-serif;
+    height: 600px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-right: 50px;
+    
+}
+.footerpart{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    
+}
+.foot1{
+    background-color:rgba(214, 225, 221, 0.282);
+}
+.last{
+    display: flex;
+    font-size: small;
+}
+.part31 {
+    display:flex;
+    gap: 8px;
+}
+ol,.part3{
+    font-size: small;
+    
+}
+.part321{
+    font-size: larger;
+    color: gray;
+}
+
